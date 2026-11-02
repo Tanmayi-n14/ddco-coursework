@@ -83,18 +83,12 @@ gtkwave <dumpfile>.vcd
 
 ---
 
-## 📜 Key Highlights
+## 🏆 Course Project: Ring & Johnson Counters
 
-1. **16-Bit ALU (`lab-07-16bit-alu`)**:
-   - Bit-slice structural architecture (`alu_slice`) chained across 16 bits with carry propagation.
-   - Supports 4 operations: `ADD`, `SUB`, `AND`, `OR`.
-2. **16-Bit Register File (`lab-08-register-file-alu`)**:
-   - 8 general-purpose 16-bit registers with individual load enable lines.
-   - Dual asynchronous read ports (`rd_addr_a`, `rd_addr_b`) via 8:1 multiplexers and synchronous write port.
-3. **FSM Vending Machine (`assignment-orange-level-1`)**:
-   - Behavioral Finite State Machine handling coin inputs, state transitions, item dispense, and change return.
-4. **Ring & Johnson Counters (`project-ring-and-johnson-counters`)**:
-   - Synchronous shift-register counters verifying circular high-bit shifting and 8-state switch-tail sequences.
+The final course project focuses on the design and simulation of shift-register based synchronous counters implemented in Verilog HDL:
+- **4-Bit Ring Counter**: Circular shift register initializing at `4'b1000` that circulates a single active high bit across 4 states.
+- **4-Stage Switch-Tail Johnson Counter**: Feeds the inverted output of the final flip-flop back into the first stage, producing an 8-state sequence (`0000` → `1000` → `1100` → `1110` → `1111` → `0111` → `0011` → `0001`) with no decoding glitching.
+- Complete Verilog modules, testbenches, schematic diagrams, and team project documentation are in `project-ring-and-johnson-counters/`.
 
 ---
 
