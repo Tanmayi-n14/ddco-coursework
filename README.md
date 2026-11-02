@@ -92,5 +92,7 @@ The final course project focuses on the design and simulation of shift-register 
 
 ---
 
-## 👩‍💻 Author
-- **Tanmayi-n14**
+## 👤 Author
+
+* **Tanmayi Nagabhairava** ([@Tanmayi-n14](https://github.com/Tanmayi-n14)) — `PES1UG24CS493`
+* Department of Computer Science & Engineering, PES University
