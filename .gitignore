@@ -1,0 +1,9 @@
+# Simulation dumps
+*.vcd
+*.out
+sim_test
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
